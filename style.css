@@ -1,0 +1,69 @@
+:root {
+  --cor-green: hsl(75, 94%, 57%);
+  --cor-white: hsl(0, 0%, 100%);
+  --cor-white-medium: hsl(0, 0%, 80%);
+
+  --cor-grey-700: hsl(0, 0%, 20%);
+  --cor-grey-800: hsl(0, 0%, 12%);
+  --cor-grey-900: hsl(0, 0%, 8%);
+}
+
+/* reset de css sendo feito com o seletor global */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--cor-grey-900);
+  color: var(--cor-white);
+}
+
+a {
+  color: var(--cor-white);
+}
+
+section {
+  background-color: var(--cor-grey-800);
+  width: 330px;
+  border-radius: 12px;
+  border: 1px solid red;
+  padding: 18px;
+  text-align: center;
+}
+
+section img {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  /* border-radius: cima-esquerda cima-direita baixo-direita baixo esquerda; */
+  object-fit: cover;
+}
+
+section h1 {
+  font-size: 28px;
+  margin: 16px 0px 8px 0px;
+  font-weight: 500;
+}
+
+section h2 {
+  font-size: 16px;
+  margin-bottom: 24px;
+  font-weight: 600;
+  color: var(--cor-green);
+}
+
+section p {
+  font-size: 14px;
+  color: var(--cor-white-medium);
+  margin-bottom: 24px;
+}
+
+li{
+  background-color: rgb(255, 0, 153);
+  margin: 16px 0;
+}
